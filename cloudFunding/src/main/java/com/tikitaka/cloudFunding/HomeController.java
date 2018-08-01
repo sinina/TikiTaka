@@ -36,6 +36,7 @@ public class HomeController {
 		System.out.println("없어저라");
 		System.out.println("없어져라2");
 		System.out.println("asd");
+		System.out.println("qmdpdpd");
 		return "home";
 	}
 	
