@@ -19,9 +19,6 @@ public class HomeController {
 	
 	private static final Logger logger = LoggerFactory.getLogger(HomeController.class);
 	
-	/**
-	 * Simply selects the home view to render by returning its name.
-	 */
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
@@ -32,12 +29,20 @@ public class HomeController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
+<<<<<<< HEAD
 		System.out.println("haha");
 		System.out.println("sd");
 		System.out.println("123");
 		System.out.println("111");
 		System.out.println("222");
 
+=======
+		System.out.println("test");
+		System.out.println("없어저라");
+		System.out.println("없어져라2");
+		System.out.println("asd");
+		System.out.println("qmdpdpd");
+>>>>>>> branch 'kky' of https://github.com/sinina/TikiTaka.git
 		return "home";
 	}
 	
