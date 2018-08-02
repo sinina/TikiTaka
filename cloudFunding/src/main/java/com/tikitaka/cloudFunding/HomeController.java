@@ -32,11 +32,17 @@ public class HomeController {
 		String formattedDate = dateFormat.format(date);
 		
 		model.addAttribute("serverTime", formattedDate );
+
 		System.out.println("sd");
 		System.out.println("123");
 		System.out.println("333");
 		System.out.println("444");
+<<<<<<< HEAD
 		System.out.println("정인 수정");
+=======
+		System.out.println("지상");
+
+>>>>>>> refs/heads/jisang
 
 		return "home";
 	}
