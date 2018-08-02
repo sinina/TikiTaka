@@ -10,6 +10,3 @@ buildNumber.properties
 
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar
-
-#root-context.xml이 추가되지 않도록 설정.
-root-context.xml
