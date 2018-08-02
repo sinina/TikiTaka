@@ -40,7 +40,6 @@ public class HomeController {
 		System.out.println("정인 수정");
 		System.out.println("지상");
 
-
 		return "home";
 	}
 	
