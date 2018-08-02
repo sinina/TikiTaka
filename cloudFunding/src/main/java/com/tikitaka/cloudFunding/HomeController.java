@@ -37,7 +37,7 @@ public class HomeController {
 		System.out.println("444");
 		System.out.println("정인 수정");
 		System.out.println("지상");
-
+		System.out.println("가용");
 
 		return "home";
 	}
