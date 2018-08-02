@@ -36,6 +36,7 @@ public class HomeController {
 		System.out.println("123");
 		System.out.println("333");
 		System.out.println("444");
+		System.out.println("정인 수정");
 
 		return "home";
 	}
