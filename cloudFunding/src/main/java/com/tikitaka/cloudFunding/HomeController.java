@@ -46,6 +46,9 @@ public class HomeController {
 
 
 /*
+ * 
+ resources/문서
+ 
  File -> Import -> Clone URI -> Next -> URI : Git 사이트에 있는 URI 붙혀넣기->User Password에 자신의 깃아이디
 입력 -> 후 next -> Import existing Eclipse projects -> next -> 체크란 체크 -> Finsh
 
