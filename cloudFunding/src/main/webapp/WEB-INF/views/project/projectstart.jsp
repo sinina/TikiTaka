@@ -1321,6 +1321,7 @@ translateX
 	border-bottom: 1px solid rgba(255, 255, 255, 1);
 }
 </style>
+
 </head>
 <body>
 
@@ -1503,7 +1504,7 @@ translateX
 											열어보는 건 어떨까요?</p>
 										<a class="PersonaCard__CollectionLink-s15ltilf-5 dpuEfz"
 											target="_blank" rel="noopener noreffer"
-											href="collections/creative.html" color="#FFE6E6"
+											href="creative.do" color="#FFE6E6"
 											data-reactid="104">
 											<!-- react-text: 105 -->창작자<!-- /react-text -->
 											<!-- react-text: 106 --> 성공사례 보기<!-- /react-text -->
@@ -1748,5 +1749,10 @@ translateX
 						</div>
 					</div>
 				</div>
+<script>
+	$(".bJiFzl ,.cjYnUu").click(function(){
+		location.href ="projectForm.do";
+	});
+</script>
 </body>
 </html>

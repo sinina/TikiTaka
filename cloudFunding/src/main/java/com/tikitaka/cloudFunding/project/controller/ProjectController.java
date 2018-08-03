@@ -11,8 +11,13 @@ public class ProjectController {
 	ProjectService pService;*/
 	
 	@RequestMapping("projectStart.do")
-	public String ProjectForm(){
+	public String projectStart(){
 		return "project/projectstart";
+	}
+	
+	@RequestMapping("projectForm.do")
+	public String projectForm(){
+		return "project/projectForm";
 	}
 	
 	@RequestMapping("projectDetail.do")
