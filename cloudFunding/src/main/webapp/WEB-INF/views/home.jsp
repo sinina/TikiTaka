@@ -8,11 +8,8 @@
 	<title>Home</title>
 </head>
 <body>
-<h1>
-	Hello world!  
-</h1>
-	<a href="loginPage.do">login</a>
-	<a href="joinPage.do">join</a>
-	<a href="projectStart.do">projectForm</a>
+<c:import url="common/index.jsp"></c:import>
+<c:import url="common/footer.jsp"></c:import>
+
 </body>
 </html>
