@@ -87,6 +87,11 @@
 <style type="text/css"
 	data-styled-components="cXdlcp bYqief fzoeFq jPcWZN iVCTYT jdgWcI bteafZ kZLTLQ hcvfVq iGOIal kizyZz cfMrMC hHUgvf bpfGNO JUlEd buZCDD imIxKd gqXDKx fqdqdO hEFTbE ikLgAw cyOybj hnqGfQ fNAOQh iToKBr jfnFWI bzlVdT jrlzzW iDsItQ iiIEkw iCczEI dUSIGe fhXjWk duKZDT iSHaZi jtYVGd ervGwJ hgvQtm buxDxm csIfer iEZvlH hEilqP hFAREh bGqbmB fOsIlY kCGzYC gEZuLR gUQbvW cWrfUF beYdFz ddAStM bpoHzD hEIXJa bxRvdW cEnTNJ nuOjL fmLEMz jftTar gEQpFE hOKtVI bzwbvF bmtKYw qHzrD cSKjGh jYcZV"
 	data-styled-components-is-local="true">
+a:link{
+	text-decoration:none;
+	color:gray;
+}
+
 /* sc-component-id: SiteFooter__SROnlyLabel-s15w7vby-0 */
 .jYcZV {
 	position: absolute;
@@ -541,6 +546,8 @@ opacity:1;
 	position: relative;
 	margin-left: 0.75rem;
 }
+
+
 </style>
 <!-- <script>
 	function hideHeader(){
