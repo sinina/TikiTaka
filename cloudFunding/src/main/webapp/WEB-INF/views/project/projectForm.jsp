@@ -2906,32 +2906,7 @@ translateX
 									</div>
 								</div>
 							</div>
-							<div
-								class="_13KHfN73YmQgsYHxXvuh_J saXk0rx00KnB6O_X8xIAv _2uxYQ-nuPwdol9sQhOjfH- _2Ixd--hCfOsqcysY6JfD3l">
-								<div class="_13KHfN73YmQgsYHxXvuh_J _3U6RUH-EASpZ_j8ls1HJyP">
-									<div class="_13KHfN73YmQgsYHxXvuh_J _3_IGkn3uaje0g2ZA6Tx9wd">
-										<label>프로젝트 페이지 주소</label>
-										<div
-											class="_13KHfN73YmQgsYHxXvuh_J _12TAeoYDPLF0sfa3UIt6uZ _3ZTEzsKL-qDLECUGq4QcLv"
-											style="cursor: pointer;">
-											<div
-												class="_2dKJQZGqcB1T0xe0DzKY0H _152MAijd_UogerBKCVqZR_ _1lLHKI5v9AoCyeggtffvGZ">
-												<div>
-													<a><i
-														class="_3WyCNpfRrfze5XqBAKgG6j WU1ox0-AeDX_zneKjnNMO _3wXDp_9ZjMHMVuf2NIy5Cg _1QY7TzdLHKX3-BKPDNNYKF"></i>
-													<!-- react-text: 1655 -->프로젝트 페이지 주소를 입력해주세요<!-- /react-text --></a>
-												</div>
-											</div>
-											<div
-												class="_2joJTlnkt26WGpxyvkNuCH _152MAijd_UogerBKCVqZR_ WU1ox0-AeDX_zneKjnNMO _3G8CRXtomRhisiZsw7Spx- _1lLHKI5v9AoCyeggtffvGZ">
-												<a><i
-													class="w6FPSPr8JA6xb8SSjkPtI _1QY7TzdLHKX3-BKPDNNYKF"></i>
-												<!-- react-text: 1659 -->입력하기<!-- /react-text --></a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
+							
 						</div>
 						<h3
 							class="_13KHfN73YmQgsYHxXvuh_J _2XNIh_QZv4rPkHih1iN3Yt _3o6iE1ko5_AeTlpXebXsBb">
@@ -3009,32 +2984,6 @@ translateX
 												<a><i
 													class="w6FPSPr8JA6xb8SSjkPtI _1QY7TzdLHKX3-BKPDNNYKF"></i>
 												<!-- react-text: 1701 -->입력하기<!-- /react-text --></a>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div
-								class="_13KHfN73YmQgsYHxXvuh_J saXk0rx00KnB6O_X8xIAv _2uxYQ-nuPwdol9sQhOjfH- _2Ixd--hCfOsqcysY6JfD3l">
-								<div class="_13KHfN73YmQgsYHxXvuh_J _3U6RUH-EASpZ_j8ls1HJyP">
-									<div class="_13KHfN73YmQgsYHxXvuh_J _3_IGkn3uaje0g2ZA6Tx9wd">
-										<label>진행자 활동 지역</label>
-										<div
-											class="_13KHfN73YmQgsYHxXvuh_J _12TAeoYDPLF0sfa3UIt6uZ _3ZTEzsKL-qDLECUGq4QcLv"
-											style="cursor: pointer;">
-											<div
-												class="_2dKJQZGqcB1T0xe0DzKY0H _152MAijd_UogerBKCVqZR_ _1lLHKI5v9AoCyeggtffvGZ">
-												<div>
-													<a><i
-														class="_3WyCNpfRrfze5XqBAKgG6j WU1ox0-AeDX_zneKjnNMO _3wXDp_9ZjMHMVuf2NIy5Cg _1QY7TzdLHKX3-BKPDNNYKF"></i>
-													<!-- react-text: 1711 -->진행자 활동 지역을 입력해주세요<!-- /react-text --></a>
-												</div>
-											</div>
-											<div
-												class="_2joJTlnkt26WGpxyvkNuCH _152MAijd_UogerBKCVqZR_ WU1ox0-AeDX_zneKjnNMO _3G8CRXtomRhisiZsw7Spx- _1lLHKI5v9AoCyeggtffvGZ">
-												<a><i
-													class="w6FPSPr8JA6xb8SSjkPtI _1QY7TzdLHKX3-BKPDNNYKF"></i>
-												<!-- react-text: 1715 -->입력하기<!-- /react-text --></a>
 											</div>
 										</div>
 									</div>

@@ -1750,7 +1750,7 @@ translateX
 					</div>
 				</div>
 <script>
-	$(".bJiFzl").click(function(){
+	$(".bJiFzl ,.cjYnUu").click(function(){
 		location.href ="projectForm.do";
 	});
 </script>
