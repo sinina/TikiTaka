@@ -8,8 +8,18 @@
 	<title>Home</title>
 </head>
 <body>
+<<<<<<< HEAD
 <c:import url="common/index.jsp"></c:import>
 <c:import url="common/footer.jsp"></c:import>
 
+=======
+<h1>
+	Hello world!  
+</h1>
+	<a href="loginPage.do">login</a>
+	<a href="joinPage.do">join</a>
+	<a href="projectStart.do">projectForm</a>
+	<a href="adminMenuList.do">임시관리자 페이지</a>
+>>>>>>> refs/heads/master
 </body>
 </html>

@@ -7,7 +7,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class ProjectController {
 	
 	@RequestMapping("projectStart.do")
-	public String ProjectForm(){
+	public String projectStart(){
 		return "project/projectstart";
+	}
+	
+	@RequestMapping("projectForm.do")
+	public String projectForm(){
+		return "project/projectForm";
 	}
 }
