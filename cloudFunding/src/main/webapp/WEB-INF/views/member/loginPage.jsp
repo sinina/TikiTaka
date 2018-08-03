@@ -1,5 +1,8 @@
  <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
+ <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<c:import url="../common/header.jsp"/>
 
 <!DOCTYPE html>
 <html lang="ko">
@@ -84,6 +87,11 @@
         // The ID token you need to pass to your backend:
         var id_token = googleUser.getAuthResponse().id_token;
         console.log("ID Token: " + id_token);
+        
+        
+        
+        
+        
       };
     </script>
 
@@ -114,6 +122,8 @@
                                 <input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
                             </fieldset>
                         </form>
+                        
+                        
                         <hr/>
                         <center><h4>OR</h4></center>
                         

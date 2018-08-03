@@ -1,5 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    
+ <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<c:import url="../common/header.jsp"/>
 <!DOCTYPE html>
 <html>
 <head>
@@ -179,11 +182,63 @@
 	          document.getElementById('name').innerText = "Signed in: " +
 	              googleUser.getBasicProfile().getName();
 	          
+	          
+	          let googleEmail = profile.getEmail();
+	          let googleName = profile.getName();
+	          let googleProfileImage = profile.getImageUrl();
+	          
+	          $("#googleEmail").val(googleEmail);
+	          $("#googleName").val(googleName);
+	          $("#googleProfileImage").val(googleProfileImage);
+	          
+	          $("#googleForm").submit();
+	          
+	          
+	          
 	        }, function(error) {
 	          alert(JSON.stringify(error, undefined, 2));
 	        });
 	  }
 	  
+	  //유효성 검사 
+	  function validate(){
+		  
+		  $(function(){
+			  $.ajax({
+				  url:"emailCheck.do",
+				  async:false,
+				  data:{email:$("#email").val()},
+				  type:"get",
+				  success:function(data){
+					  
+					  if(data == "false"){
+						  alert("이미 존재하는 이메일입니다.");
+						  return false;
+					  }
+					  
+				  },error:function(e){
+					  console.log(e);
+				  }
+			  });
+		  });
+		  
+		  
+		  
+		  if( $("#email").val() == "" ||  $("#email").val() == null ||
+				  $("#name").val() == "" || $("#name").val() == null ||
+				  $("#password").val() == "" || $("#password").val() == null ||
+				  $("#profileImage").val() == "" || $("#profileImage").val() == null){
+			  alert("필요한 값이 부족합니다.");
+			  return false;
+		  }
+		  
+		  if($("#password").val() != $("#confirm").val()){
+			  
+			  alert("비밀번호를 확인하세요.");
+			  return false;
+		  }
+		  
+	  }
 	  
 	  
 	
@@ -204,7 +259,9 @@
             </div>
         </div>
         <div class="main-login main-center">
-            <form class="form-horizontal" method="post" action="#">
+            <form class="form-horizontal" method="post" action="join.do" 
+            onsubmit="return validate()")
+            enctype="multipart/form-data">
 
                 <div class="form-group">
                     <label for="name" class="cols-sm-2 control-label">이름</label>
@@ -231,7 +288,7 @@
                     <div class="cols-sm-10">
                         <div class="input-group">
                             <span class="input-group-addon"><i class="fa fa-users fa" aria-hidden="true"></i></span>
-                            <input type="file" class="form-control" name="username" id="username" />
+                            <input type="file" class="form-control" name="profileImage" id="profileImage" />
                         </div>
                     </div>
                 </div>
@@ -257,7 +314,7 @@
                 </div>
 
                 <div class="form-group ">
-                    <button type="button" class="btn btn-primary btn-lg btn-block login-button">회원가입</button>
+                    <button type="submit" class="btn btn-primary btn-lg btn-block login-button">회원가입</button>
                 </div>
                 <div class="login-register">
                     <a href="index.php">Login</a>
@@ -282,10 +339,18 @@
                 </div>
 
 
-
-
-
             </form>
+            
+            
+            
+            
+            <form id="googleForm" action="googleJoin.do" method="post">
+            	<input type="hidden" id="googleEmail" name="googleEmail">
+            	<input type="hidden" id="googleName" name="googleName">
+            	<input type="hidden" id="googleProfileImage" name="googleProfileImage">
+            </form>
+            
+            
         </div>
     </div>
 </div>
