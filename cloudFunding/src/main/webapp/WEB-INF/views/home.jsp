@@ -14,6 +14,6 @@
 
 	<a href="loginPage.do">login</a>
 	<a href="joinPage.do">join</a>
-	<a href="projectForm.do">projectForm</a>
+	<a href="projectStart.do">projectForm</a>
 </body>
 </html>
