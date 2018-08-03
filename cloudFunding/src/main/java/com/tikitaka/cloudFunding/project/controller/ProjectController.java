@@ -15,12 +15,12 @@ public class ProjectController {
 		return "project/projectstart";
 	}
 	
-	/*@RequestMapping("projectDetail.do")
-	public ModelAndView projectDetail(int pProjectCode, ModelAndView mv){
-		ProjectVo project = pService.selectProject(pProjectCode);
-		mv.addObject("project", project);
+	@RequestMapping("projectDetail.do")
+	public ModelAndView projectDetail(/*int pProjectCode, */ModelAndView mv){
+		/*ProjectVo project = pService.selectProject(pProjectCode);
+		mv.addObject("project", project);*/
 		mv.setViewName("project/projectDetail");
 		return mv;
 		
-	}*/
+	}
 }

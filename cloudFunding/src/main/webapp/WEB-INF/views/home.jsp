@@ -14,5 +14,6 @@
 	<a href="joinPage.do">join</a>
 	<a href="projectStart.do">projectForm</a>
 	<a href="adminMenuList.do">임시관리자 페이지</a>
+	<a href="projectDetail.do">프로젝트 상세 페이지</a>
 </body>
 </html>
