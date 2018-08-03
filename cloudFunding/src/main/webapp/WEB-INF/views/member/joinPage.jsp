@@ -1,11 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
-< 
 <!DOCTYPE html>
 <html>
 <head>
-<c:import url="../common/header.jsp"></c:import>
 <meta charset="UTF-8">
 <title>회원가입</title>
 
@@ -20,16 +17,9 @@
   
   
   
-  
-  
   <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-    <!-- <script src="//code.jquery.com/jquery-1.11.1.min.js"></script> -->
-    
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.js"
-  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-  crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
@@ -189,24 +179,10 @@
 	          document.getElementById('name').innerText = "Signed in: " +
 	              googleUser.getBasicProfile().getName();
 	          
-	          
-	         
-	          let userName = profile.getName();
-	          let userImageUrl = profile.getImageUrl();
-	          let userEmail = profile.getEmail();
-	      	        
-          	$("#googlename").val(userName);
-          	$("#profile_img").val(userImageUrl);
-          	$("#googleemail").val(userEmail);
-	      
-          	$("#googleForm").submit();
-	          
-	          
 	        }, function(error) {
 	          alert(JSON.stringify(error, undefined, 2));
 	        });
 	  }
-	  
 	  
 	  
 	  
@@ -228,7 +204,6 @@
             </div>
         </div>
         <div class="main-login main-center">
-        
             <form class="form-horizontal" method="post" action="#">
 
                 <div class="form-group">
@@ -307,20 +282,10 @@
                 </div>
 
 
+
+
+
             </form>
-            
-          
-     
-           
-            
-            <form id="googleForm" action="googleJoin.do" method="post">
-            	<input type="hidden" id="googlename" name="googlename">
-            	<input type="hidden" id="profile_img" name="profile_img">
-            	<input type="hidden" id="googleemail" name="googleemail">
-            </form>
-            
-            
-            
         </div>
     </div>
 </div>
