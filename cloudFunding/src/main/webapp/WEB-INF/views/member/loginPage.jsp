@@ -1,9 +1,13 @@
  <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+ <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
 
 <!DOCTYPE html>
 <html lang="ko">
 <head>
+	<c:import url="../common/header.jsp"></c:import>
+	
     <meta charset="utf-8">
     
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
