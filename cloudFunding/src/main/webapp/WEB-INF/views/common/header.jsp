@@ -33,7 +33,6 @@
 
   <meta name="apple-mobile-web-app-title" content="tumblbug">
   <meta name="application-name" content="tumblbug">
-<<<<<<< HEAD
 
 <script type="text/javascript" src="resources/js/jquery-3.3.1.min.js"></script>
 
